@@ -280,7 +280,7 @@ main {
 }
 
 .post__shared_btn svg {
-  fill: var(--blue-1);
+  fill: rgb(0, 0, 0, 0.7);
   height: 20px;
 }
 
