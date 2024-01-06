@@ -49,29 +49,14 @@ footer {
 
 /* MAIN SECTION LAYOUT  */
 main {
-  padding: 30px 0;
+  padding: 20px 0;
   /* height: auto; */
 }
 main .container {
   display: grid;
-  grid-template-columns: 1fr 250px;
+  grid-template-columns: 1fr 300px;
   width: 100%;
   /* height: 700px; */
-}
-
-.project {
-  grid-area: 1 / 1 / 3 / 2;
-  /* background: red; */
-}
-
-.announcement {
-  grid-area: 1 / 2 / 2 /3;
-  background: blue;
-}
-
-.trending {
-  grid-area: 2 / 2 / 3 / 3;
-  background: yellow;
 }
 
 /* UTILITY */
@@ -253,12 +238,11 @@ main {
 }
 
 .card-container {
-  height: 100%;
+  /* height: 100%; */
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  padding: 20px 0;
+  gap: 10px;
   padding-right: 20px;
 }
 
@@ -302,6 +286,23 @@ main {
 
 .post__shared_btn a:last-child svg {
   transform: rotate(-90deg);
+}
+
+/* SIDEBAR MAIN SECTION */
+.sidebar-right {
+  /* background: red; */
+  height: 100%;
+  width: 100%;
+}
+
+.subtitle {
+  margin-bottom: 20px;
+}
+
+.sidebar-right-top {
+  background-color: var(--white-1);
+  padding: 20px;
+  border-radius: 10px;
 }
 
 /* FOOTER */
